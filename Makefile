@@ -12,4 +12,4 @@ help: ## Help
 
 .PHONY: run
 run: ## Run application
-	@./main -h $(host) -p $(port) -t $(threads)
+	@./main -s $(host) -p $(port) -t $(threads)
